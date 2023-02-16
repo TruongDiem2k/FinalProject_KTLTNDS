@@ -1,0 +1,581 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675240363496738, "dur": 1250323, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675240363498083, "dur": 72459, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675240363570690, "dur": 1166077, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675240364736788, "dur": 10272, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675240393714052, "dur": 2317006, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675240393714334, "dur": 3638, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675240393717975, "dur": 31274, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675240393749287, "dur": 1031434, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675240394780723, "dur": 1246018, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675240396026744, "dur": 4312, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675240396032199, "dur": 119, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1675240394610300, "dur": 146365, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675240394611285, "dur": 46955, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675240394740413, "dur": 4201, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675240394744617, "dur": 12041, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675240394745300, "dur": 10893, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675240394761254, "dur": 1321, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675240394760220, "dur": 2383, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675240396032521, "dur": 580, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675240394816269, "dur":1197, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240394817472, "dur":70, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675240394817551, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675240394817574, "dur":531, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675240394818146, "dur":555, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240394818701, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998303, "dur":213, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998517, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998533, "dur":14, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998547, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998559, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998562, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998568, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998570, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998577, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998579, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998586, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998588, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998596, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998598, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998605, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998607, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998614, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998616, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998623, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998625, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998632, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998634, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998641, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998643, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998650, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998665, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240395998681, "dur":1885, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675240394818215, "dur":514, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240394818730, "dur":3382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240394822122, "dur":23688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1675240394845815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240394846236, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1675240394846939, "dur":24358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240394871302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240394871336, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240394872858, "dur":38925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240394911789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240394911808, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240394913884, "dur":63382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240394977272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240394977283, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240394978990, "dur":61635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395040629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240395040636, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395041491, "dur":26408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395067905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240395067915, "dur":4814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395072747, "dur":77782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395150535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240395150544, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395151652, "dur":53104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395204762, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240395204774, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395205728, "dur":40447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395246179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240395246189, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395247223, "dur":114392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395361620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240395361629, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395364043, "dur":162431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395526480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240395526491, "dur":4501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395531016, "dur":183942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395714964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675240395714973, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675240395715888, "dur":282411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240394818115, "dur":597, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240394818715, "dur":3390, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240394822126, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1675240394822128, "dur":11551, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240394833688, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1675240394833693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240394833812, "dur":3558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1675240394837372, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1675240394837493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240394838250, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1675240394839405, "dur":78977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240394918388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240394918398, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240394920855, "dur":163959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240395084820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240395084828, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240395085775, "dur":38900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240395124679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240395124688, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240395125853, "dur":53490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240395179375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240395179386, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240395180209, "dur":89914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240395270128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240395270137, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240395271251, "dur":96807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240395368061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240395368070, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240395369760, "dur":271781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240395641549, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675240395641562, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675240395644200, "dur":354097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240394818205, "dur":515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240394818720, "dur":3399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240394822121, "dur":8385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1675240394830508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240394834156, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1675240394837656, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1675240394837801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240394837837, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1675240394838989, "dur":35588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game.exe" }}
+,{ "pid":12345, "tid":3, "ts":1675240394874582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240394874590, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game.exe" }}
+,{ "pid":12345, "tid":3, "ts":1675240394876316, "dur":39545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240394915865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240394915873, "dur":6674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240394922565, "dur":30940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240394953510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240394953520, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240394954622, "dur":22743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240394977369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240394977378, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240394978461, "dur":63820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395042285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240395042294, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395043980, "dur":26565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395070552, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240395070576, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395071294, "dur":56089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395127389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240395127399, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395128540, "dur":32726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395161315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240395161329, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395162128, "dur":145766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395307900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240395307911, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395308754, "dur":134344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395443103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240395443114, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395444430, "dur":199734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395644169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675240395644178, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675240395646263, "dur":352055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240394818260, "dur":478, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240394818739, "dur":3374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240394822122, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675240394822289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240394834807, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675240394837914, "dur":1319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1675240394839236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240394839300, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1675240394840997, "dur":27181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240394868182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240394868315, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240394869332, "dur":139650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395008991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395009004, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395010734, "dur":29486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395040226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395040235, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395040970, "dur":764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395041739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395041747, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395042762, "dur":973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395043740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395043748, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395044507, "dur":46851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395091363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395091373, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395092910, "dur":112119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395205034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395205043, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395206130, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395206747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395206755, "dur":567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395207334, "dur":63445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395270783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395270790, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395271462, "dur":49473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395320963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395320974, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395322183, "dur":213413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395535602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395535612, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675240395536971, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1675240395537059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395537211, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1675240395537830, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1675240395537845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395537862, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1675240395539532, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1675240395539547, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395539555, "dur":23174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1675240395562749, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675240395562765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675240395562774, "dur":435468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675240395998265, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1675240395998266, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240394818295, "dur":453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240394818749, "dur":3381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240394822130, "dur":7593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1675240394829728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240394833928, "dur":3774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1675240394837747, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1675240394838296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240394838303, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1675240394840068, "dur":43497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240394883571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240394883580, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240394884466, "dur":31260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240394915732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240394915742, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240394916470, "dur":158559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395075035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240395075045, "dur":3649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395078710, "dur":27320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395106035, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240395106047, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395107161, "dur":33852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395141017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240395141025, "dur":642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395141680, "dur":31511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395173451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240395173462, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395174487, "dur":37187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395211679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240395211689, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395212463, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395213187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240395213196, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395214525, "dur":3573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395218104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240395218115, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395219057, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395219699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240395219709, "dur":673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395220394, "dur":108280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395328681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240395328693, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395329691, "dur":312627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395642323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675240395642333, "dur":3689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675240395646040, "dur":352292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240394818432, "dur":325, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240394818757, "dur":3370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240394822128, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1675240394822292, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240394834134, "dur":3700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1675240394837885, "dur":4174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240394842063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240394842239, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240394843497, "dur":59263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240394902765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240394902776, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240394904063, "dur":84088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240394988155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240394988163, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240394988837, "dur":31745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395020588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240395020629, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395021770, "dur":37354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395059130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240395059140, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395060372, "dur":67954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395128331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240395128341, "dur":2820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395131175, "dur":31881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395163060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240395163069, "dur":5790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395168891, "dur":43760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395212655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240395212664, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395214524, "dur":30043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395244573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240395244584, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395245837, "dur":75897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395321738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240395321746, "dur":707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395322474, "dur":322692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395645175, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675240395645187, "dur":5989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675240395651201, "dur":347100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240394818494, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240394818766, "dur":3382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240394822148, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1675240394822285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240394833877, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1675240394837892, "dur":38249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240394876148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240394876192, "dur":15878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240394892154, "dur":27225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240394919383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240394919392, "dur":4426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240394923835, "dur":60606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240394984447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240394984457, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240394985336, "dur":31306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395016648, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240395016659, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395018103, "dur":42752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395060859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240395060868, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395064845, "dur":58237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395123087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240395123095, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395124480, "dur":71101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395195587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240395195599, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395196672, "dur":620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395197296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240395197305, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395198028, "dur":64236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395262269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240395262279, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395262981, "dur":95699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395358685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240395358694, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395359484, "dur":54372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395413862, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240395413873, "dur":11719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395425608, "dur":47199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395472817, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240395472830, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395473584, "dur":377090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395850679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675240395850686, "dur":8314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675240395859021, "dur":139281, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240394818540, "dur":234, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240394818775, "dur":3354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240394822134, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1675240394822291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240394834069, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1675240394837904, "dur":137626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240394975535, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240394975544, "dur":42726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395018328, "dur":41286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395059618, "dur":276, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395059903, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395061281, "dur":34866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395096152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395096162, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395096943, "dur":32069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395129016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395129025, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395130232, "dur":25647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395155884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395155895, "dur":2137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395158066, "dur":34556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395192627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395192636, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395193378, "dur":385099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395578482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395578522, "dur":9434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675240395587977, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1675240395588096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395588109, "dur":3731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1675240395591871, "dur":1099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1675240395592978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395592992, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1675240395594612, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675240395594632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395594642, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675240395596303, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675240395596322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395596333, "dur":8456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675240395604839, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675240395604882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395604899, "dur":5886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675240395610808, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1675240395610824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395610832, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1675240395612900, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675240395612918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395612926, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675240395614356, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1675240395614385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395614397, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1675240395615845, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1675240395616000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675240395616009, "dur":3649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1675240395619677, "dur":378621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240394818696, "dur":88, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240394818784, "dur":3351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240394822135, "dur":8242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1675240394830379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240394833945, "dur":3719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1675240394837721, "dur":8413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1675240394846137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240394846146, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1675240394846840, "dur":58290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240394905135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240394905171, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240394906175, "dur":46052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240394952233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240394952242, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240394953021, "dur":71739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395024767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240395024778, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395025509, "dur":866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395026378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240395026386, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395027090, "dur":761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395027854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240395027863, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395028485, "dur":753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395029243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240395029255, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395030328, "dur":73837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395104172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240395104184, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395106214, "dur":24078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395130298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240395130309, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395131103, "dur":179236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395310344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240395310384, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395313112, "dur":50746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395363863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240395363873, "dur":3936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395367826, "dur":325327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395693158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675240395693164, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675240395694259, "dur":304068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240394818758, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240394818759, "dur":3366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240394822125, "dur":8031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1675240394830158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240394834145, "dur":3390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1675240394837592, "dur":7639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1675240394845236, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240394845248, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1675240394846248, "dur":48440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240394894694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240394894705, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240394896013, "dur":36781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240394932800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240394932811, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240394933727, "dur":53592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240394987325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240394987337, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240394988179, "dur":34218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395022401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240395022412, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395025275, "dur":830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395026109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240395026118, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395026909, "dur":92782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395119697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240395119708, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395121276, "dur":32168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395153449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240395153465, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395154362, "dur":43268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395197633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240395197640, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395198814, "dur":44451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395243271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240395243280, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395244001, "dur":422490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395666501, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675240395666516, "dur":6162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675240395672696, "dur":325624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240394818800, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240394818801, "dur":3321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240394822125, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1675240394822280, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240394834118, "dur":3592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1675240394837760, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1675240394838189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240394838196, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1675240394840989, "dur":26933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240394867928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240394868402, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240394869187, "dur":32881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240394902074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240394902084, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240394903192, "dur":67899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240394971097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240394971107, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240394971947, "dur":63355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240395035308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240395035319, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240395036339, "dur":55123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240395091466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240395091473, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240395092366, "dur":46959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240395139330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240395139342, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240395140501, "dur":28109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240395168615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240395168690, "dur":5067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240395173776, "dur":73015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240395246821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240395246828, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240395247535, "dur":328861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240395576403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240395576413, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675240395577869, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1675240395577893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675240395577902, "dur":46801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1675240395624721, "dur":373599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240394818901, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240394818901, "dur":3231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240394822135, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1675240394822320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240394833920, "dur":3777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1675240394837741, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1675240394837959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240394838033, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1675240394839051, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1675240394839146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240394839283, "dur":12779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1675240394852117, "dur":50928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240394903050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240394903058, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240394904393, "dur":33661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240394938060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240394938069, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240394938964, "dur":138431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395077402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240395077436, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395078517, "dur":44062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395122585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240395122595, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395124809, "dur":31131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395155944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240395155952, "dur":3681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395159648, "dur":47576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395207228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240395207236, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395208328, "dur":790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395209124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240395209134, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395209956, "dur":778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395210738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240395210749, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395211757, "dur":34723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395246483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240395246492, "dur":11049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395257558, "dur":196844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395454410, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240395454431, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395457262, "dur":52910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395510178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240395510188, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395511588, "dur":271531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395783125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675240395783135, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/HUST/KTLTNDS/Project/Build/1/FPS Survival Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675240395784085, "dur":214222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675240396001638, "dur":1585, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675240396033240, "dur": 2082, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675240396032157, "dur": 3254, "ph": "X", "name": "Write chrome-trace events", "args": {} },
